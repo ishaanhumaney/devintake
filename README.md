@@ -38,13 +38,13 @@ devintake/
 
 │   └── workflows/
 
-│       └── ci.yml      # Automated HTML5 syntax checking
+│       └── ci.yml        # Automated HTML5 syntax checking
 
-├── .gitignore          # Basic environment filter
+├── .gitignore            # Basic environment filter
 
-├── index.html          # Core structure and semantic intake layout
+├── index.html            # Core structure and semantic intake layout
 
-├── README.md           # Documentation
+├── README.md             # Documentation
 
 └── style.css           # Grid systems and interface styling
 
