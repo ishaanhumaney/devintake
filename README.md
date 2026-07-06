@@ -32,22 +32,16 @@ cd devintake
 # Open index.html in any desktop browser
 
 ## Project Structure
-
+```bash
 devintake/
 ├── .github/
-
-│   └── workflows/
-
-│       └── ci.yml        # Automated HTML5 syntax checking
-
-├── .gitignore            # Basic environment filter
-
-├── index.html            # Core structure and semantic intake layout
-
-├── README.md             # Documentation
-
-└── style.css           # Grid systems and interface styling
-
+│     └── workflows/
+│         └── ci.yml        # Automated HTML5 syntax checking
+├── .gitignore              # Basic environment filter
+├── index.html              # Core structure and semantic intake layout
+├── README.md               # Documentation
+└── style.css               # Grid systems and interface styling
+```
 ## Roadmap
 [ ] Implement full stylesheet matching standard component UI frameworks.
 
