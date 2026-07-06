@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Developer Intake Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <header>
+            <h1>Work With Us (Freelance)</h1>
+            <p>Drop your details below if you are looking for contract or project-based dev work.</p>
+        </header>
+
+        <form id="freelance-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Rajesh Rastogi" required>
+                <span class="error-msg">Please enter your name.</span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="rajesh@example.com" required>
+                <span class="error-msg">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+                <label for="portfolio">Portfolio or GitHub URL</label>
+                <input type="url" id="portfolio" name="portfolio" placeholder="https://..." required>
+                <span class="error-msg">Please enter a valid URL.</span>
+            </div>
+
+            <div class="form-group">
+                <label for="specialty">Primary Specialty</label>
+                <select id="specialty" name="specialty" required>
+                    <option value="" disabled selected>Select your main domain</option>
+                    <option value="frontend">Frontend (React / Vue / Next.js)</option>
+                    <option value="backend">Backend (Node / Python / Go)</option>
+                    <option value="mobile">Mobile Apps (React Native / Flutter / Native)</option>
+                    <option value="web3">Web3 / Smart Contracts</option>
+                </select>
+                <span class="error-msg">Please select your primary specialty.</span>
+            </div>
+
+            <div class="form-group">
+                <label>Weekly Availability</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="availability" value="part-time" required> Part-time (< 20 hours/week)
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="availability" value="full-time"> Full-time (30-40 hours/week)
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="availability" value="flexible"> Project-dependent / Milestone basis
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Preferred Project Types</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="projects" value="greenfield"> Greenfield (Building 0 to 1)
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="projects" value="maintenance"> Legacy / Feature Expansion
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="projects" value="consulting"> Architecture & Code Review
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Briefly describe your recent stack or typical project scope</label>
+                <textarea id="bio" name="bio" rows="4" placeholder="e.g., I build high-performance React dashboards backed by Node/Postgres..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
