@@ -35,11 +35,17 @@ cd devintake
 
 devintake/
 ├── .github/
+
 │   └── workflows/
+
 │       └── ci.yml      # Automated HTML5 syntax checking
+
 ├── .gitignore          # Basic environment filter
+
 ├── index.html          # Core structure and semantic intake layout
+
 ├── README.md           # Documentation
+
 └── style.css           # Grid systems and interface styling
 
 ## Roadmap
