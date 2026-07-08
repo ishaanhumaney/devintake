@@ -34,9 +34,6 @@ cd devintake
 ## Project Structure
 ```bash
 devintake/
-├── .github/
-│     └── workflows/
-│         └── ci.yml        # Automated HTML5 syntax checking
 ├── .gitignore              # Basic environment filter
 ├── index.html              # Core structure and semantic intake layout
 ├── README.md               # Documentation
